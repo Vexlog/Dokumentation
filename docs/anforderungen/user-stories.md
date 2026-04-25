@@ -14,7 +14,7 @@ im **Given / When / Then**-Format.
 
 ## US-01 – Projekt anlegen {#us-01}
 
-> **Verantwortlich:** Mitglied 1 | **Rolle:** Projektleiter
+> **Verantwortlich:**  | **Rolle:** Projektleiter
 
 !!! quote "Story"
     *„Als Projektleiter möchte ich ein neues Projekt mit allen Stammdaten anlegen können,
@@ -30,7 +30,7 @@ im **Given / When / Then**-Format.
 
 ## US-02 – Ampelwarnung {#us-02}
 
-> **Verantwortlich:** Mitglied 1 | **Rolle:** Projektleiter
+> **Verantwortlich:**  | **Rolle:** Projektleiter
 
 !!! quote "Story"
     *„Als Projektleiter möchte ich sofort eine visuelle Warnung (Ampel) sehen, wenn ein Projekt
@@ -46,7 +46,7 @@ im **Given / When / Then**-Format.
 
 ## US-03 – Zeitbuchung {#us-03}
 
-> **Verantwortlich:** Mitglied 2 | **Rolle:** Mitarbeiter
+> **Verantwortlich:**  | **Rolle:** Mitarbeiter
 
 !!! quote "Story"
     *„Als Mitarbeiter möchte ich meine geleisteten Arbeitsstunden auf ein Projekt buchen können,
@@ -62,7 +62,7 @@ im **Given / When / Then**-Format.
 
 ## US-04 – Materialbuchung {#us-04}
 
-> **Verantwortlich:** Mitglied 2 | **Rolle:** Mitarbeiter
+> **Verantwortlich:**  | **Rolle:** Mitarbeiter
 
 !!! quote "Story"
     *„Als Mitarbeiter möchte ich Materialverbrauch mit Kosten auf ein Projekt buchen können,
@@ -78,7 +78,7 @@ im **Given / When / Then**-Format.
 
 ## US-05 – PDF-Export {#us-05}
 
-> **Verantwortlich:** Mitglied 3 | **Rolle:** Projektleiter
+> **Verantwortlich:**  | **Rolle:** Projektleiter
 
 !!! quote "Story"
     *„Als Projektleiter möchte ich jederzeit eine vollständige Projektübersicht als PDF exportieren
@@ -94,7 +94,7 @@ im **Given / When / Then**-Format.
 
 ## US-06 – Rechnung bei Projektabschluss {#us-06}
 
-> **Verantwortlich:** Mitglied 3 | **Rolle:** Projektleiter
+> **Verantwortlich:**  | **Rolle:** Projektleiter
 
 !!! quote "Story"
     *„Als Projektleiter möchte ich beim Projektabschluss automatisch eine Kundenrechnung als PDF
@@ -110,7 +110,7 @@ im **Given / When / Then**-Format.
 
 ## US-07 – GF-Dashboard {#us-07}
 
-> **Verantwortlich:** Mitglied 4 | **Rolle:** Geschäftsführung
+> **Verantwortlich:**  | **Rolle:** Geschäftsführung
 
 !!! quote "Story"
     *„Als Mitglied der Geschäftsführung möchte ich alle Projekte im Unternehmen im Überblick sehen
@@ -126,7 +126,7 @@ im **Given / When / Then**-Format.
 
 ## US-08 – Benutzerverwaltung {#us-08}
 
-> **Verantwortlich:** Mitglied 4 | **Rolle:** Administrator
+> **Verantwortlich:**  | **Rolle:** Administrator
 
 !!! quote "Story"
     *„Als Administrator möchte ich Benutzerrollen verwalten und Rechte zuweisen können,
@@ -142,7 +142,7 @@ im **Given / When / Then**-Format.
 
 ## US-09 – Team-Verwaltung {#us-09}
 
-> **Verantwortlich:** Mitglied 5 | **Rolle:** Projektleiter
+> **Verantwortlich:**  | **Rolle:** Projektleiter
 
 !!! quote "Story"
     *„Als Projektleiter möchte ich Teams anlegen und Mitarbeitern zuordnen können, damit ich bei
@@ -158,7 +158,7 @@ im **Given / When / Then**-Format.
 
 ## US-10 – Mitarbeiter deaktivieren {#us-10}
 
-> **Verantwortlich:** Mitglied 5 | **Rolle:** Administrator
+> **Verantwortlich:**  | **Rolle:** Administrator
 
 !!! quote "Story"
     *„Als Administrator möchte ich ausgeschiedene Mitarbeiter deaktivieren statt löschen können,

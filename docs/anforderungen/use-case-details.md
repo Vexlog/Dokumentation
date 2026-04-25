@@ -14,7 +14,7 @@ Jeder UC ist nach der standardisierten Schablone beschrieben.
 
 ## UC-01 – Projekt anlegen {#uc-01}
 
-> **Verantwortlich:** Mitglied 1
+> **Verantwortlich:** 
 
 | Feld | Inhalt |
 |---|---|
@@ -59,7 +59,7 @@ das Ampelsystem ist initialisiert (🟢 Grün) und das Projekt erscheint im Dash
 
 ## UC-05 – Projektstatus überwachen (Ampelsystem) {#uc-05}
 
-> **Verantwortlich:** Mitglied 1
+> **Verantwortlich:** 
 
 | Feld | Inhalt |
 |---|---|
@@ -104,7 +104,7 @@ das Ampelsystem ist initialisiert (🟢 Grün) und das Projekt erscheint im Dash
 
 ## UC-07 – Projektübersicht als PDF exportieren {#uc-07}
 
-> **Verantwortlich:** Mitglied 3
+> **Verantwortlich:** 
 
 | Feld | Inhalt |
 |---|---|
@@ -140,7 +140,7 @@ das Ampelsystem ist initialisiert (🟢 Grün) und das Projekt erscheint im Dash
 
 ## UC-08 – Rechnung erstellen (PDF) {#uc-08}
 
-> **Verantwortlich:** Mitglied 3
+> **Verantwortlich:** 
 
 | Feld | Inhalt |
 |---|---|
@@ -177,7 +177,7 @@ das Ampelsystem ist initialisiert (🟢 Grün) und das Projekt erscheint im Dash
 
 ## UC-09 – Aufwand buchen (Zeit) {#uc-09}
 
-> **Verantwortlich:** Mitglied 2
+> **Verantwortlich:** 
 
 | Feld | Inhalt |
 |---|---|
@@ -216,7 +216,7 @@ das Ampelsystem ist initialisiert (🟢 Grün) und das Projekt erscheint im Dash
 
 ## UC-10 – Materialkosten buchen {#uc-10}
 
-> **Verantwortlich:** Mitglied 2
+> **Verantwortlich:** 
 
 | Feld | Inhalt |
 |---|---|
@@ -254,7 +254,7 @@ das Ampelsystem ist initialisiert (🟢 Grün) und das Projekt erscheint im Dash
 
 ## UC-11 – Mitarbeiter anlegen {#uc-11}
 
-> **Verantwortlich:** Mitglied 4
+> **Verantwortlich:** 
 
 | Feld | Inhalt |
 |---|---|
@@ -291,7 +291,7 @@ das Ampelsystem ist initialisiert (🟢 Grün) und das Projekt erscheint im Dash
 
 ## UC-13 – Team anlegen und Mitarbeiter zuordnen {#uc-13}
 
-> **Verantwortlich:** Mitglied 5
+> **Verantwortlich:** 
 
 | Feld | Inhalt |
 |---|---|
@@ -328,7 +328,7 @@ das Ampelsystem ist initialisiert (🟢 Grün) und das Projekt erscheint im Dash
 
 ## UC-14 – Kunden anlegen {#uc-14}
 
-> **Verantwortlich:** Mitglied 5
+> **Verantwortlich:** 
 
 | Feld | Inhalt |
 |---|---|
@@ -364,7 +364,7 @@ das Ampelsystem ist initialisiert (🟢 Grün) und das Projekt erscheint im Dash
 
 ## UC-16 – Benutzer anlegen / Rolle zuweisen {#uc-16}
 
-> **Verantwortlich:** Mitglied 4
+> **Verantwortlich:** 
 
 | Feld | Inhalt |
 |---|---|

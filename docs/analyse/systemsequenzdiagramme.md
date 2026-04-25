@@ -16,7 +16,7 @@ und dem System auf hoher Abstraktionsebene. Interne Systemdetails werden
 
 ## SSD-01 – Projekt anlegen {#ssd-01}
 
-> **Verantwortlich:** Mitglied 1
+> **Verantwortlich:** 
 
 Zeigt die Interaktion beim Anlegen eines neuen Projekts. Das System validiert
 die Eingaben, vergibt eine Projektnummer und initialisiert den Ampelstatus.
@@ -53,7 +53,7 @@ SYS --> PL : zeigeBestaetigung(projektnummer)
 
 ## SSD-02 – Ampelstatus prüfen & E-Mail senden {#ssd-02}
 
-> **Verantwortlich:** Mitglied 1
+> **Verantwortlich:** 
 
 Beschreibt den automatischen Prozess nach jeder Kostenbuchung: System berechnet
 Kosten- und Terminfortschritt, setzt Ampelstatus und sendet ggf. Warn-E-Mail.
@@ -98,7 +98,7 @@ SYS --> MA : zeigeAktualisiertesProjekt(ampelstatus)
 
 ## SSD-03 – Aufwand (Zeit) buchen {#ssd-03}
 
-> **Verantwortlich:** Mitglied 2
+> **Verantwortlich:** 
 
 Ein Mitarbeiter bucht geleistete Arbeitsstunden. Das System berechnet die
 Kosten und aktualisiert den Projektstand.
@@ -135,7 +135,7 @@ SYS --> MA : zeigeBestaetigung(buchungsdetails)
 
 ## SSD-04 – Materialbuchung erfassen {#ssd-04}
 
-> **Verantwortlich:** Mitglied 2
+> **Verantwortlich:** 
 
 Ein Mitarbeiter bucht Materialkosten. Der Ablauf unterscheidet sich von der
 Zeitbuchung durch fehlende Tätigkeitsauswahl und direkte Kostenangabe.
@@ -170,7 +170,7 @@ SYS --> MA : zeigeErfolgsmeldung()
 
 ## SSD-05 – PDF-Projektübersicht exportieren {#ssd-05}
 
-> **Verantwortlich:** Mitglied 3
+> **Verantwortlich:** 
 
 Der Nutzer exportiert eine vollständige Projektübersicht als PDF. Das System
 sammelt rekursiv alle Unterprojekte und Kostenpositionen.
@@ -201,7 +201,7 @@ SYS --> PL : liefereDownload(pdfDatei)
 
 ## SSD-06 – Projekt abschließen & Rechnung erstellen {#ssd-06}
 
-> **Verantwortlich:** Mitglied 3
+> **Verantwortlich:** 
 
 Der Projektleiter schließt ein Projekt ab. Das System bestätigt den Abschluss,
 sperrt weitere Buchungen und erstellt automatisch eine Kundenrechnung als PDF.
@@ -236,7 +236,7 @@ SYS --> PL : zeigeDownloadlink(rechnung.pdf)
 
 ## SSD-07 – Mitarbeiter anlegen {#ssd-07}
 
-> **Verantwortlich:** Mitglied 4
+> **Verantwortlich:** 
 
 Ein Administrator legt einen neuen Mitarbeiter an. Das System prüft die
 Eindeutigkeit der Personalnummer und speichert den Datensatz.
@@ -270,7 +270,7 @@ SYS --> ADM : zeigeBestaetigung(mitarbeiterId)
 
 ## SSD-08 – Benutzer anlegen & Rolle zuweisen {#ssd-08}
 
-> **Verantwortlich:** Mitglied 4
+> **Verantwortlich:** 
 
 Ein Administrator richtet einen Systemzugang ein, weist die Benutzerrolle zu
 und das System versendet eine Einladungsmail.
@@ -308,7 +308,7 @@ SYS --> NB : loginMoeglich()
 
 ## SSD-09 – Team anlegen und Mitarbeiter zuordnen {#ssd-09}
 
-> **Verantwortlich:** Mitglied 5
+> **Verantwortlich:** 
 
 Ein Projektleiter erstellt ein neues Team und weist Mitarbeiter zu.
 
@@ -341,7 +341,7 @@ SYS --> PL : zeigeBestaetigung(teamId, anzahlMitglieder)
 
 ## SSD-10 – Kunden anlegen {#ssd-10}
 
-> **Verantwortlich:** Mitglied 5
+> **Verantwortlich:** 
 
 Ein Administrator legt einen neuen Kunden an. Der Kunde steht danach
 in der Projektanlage zur Auswahl bereit.
