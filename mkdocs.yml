@@ -1,6 +1,7 @@
 site_name: BEST-PRO Entwicklerdokumentation
 site_description: Zentrale Wissensdatenbank für das BEST-PRO Projektmanagementsystem
 site_author: Projektteam WI(P) 28 – SS 2026
+site_url: https://vexlog.github.io/Dokumentation/
 docs_dir: docs
 site_dir: site
 
