@@ -192,43 +192,43 @@ nav:
     - analyse/index.md
     - Domänenklassendiagramm: analyse/domaenenmodell.md
     - Systemsequenzdiagramme: analyse/systemsequenzdiagramme.md
-  - 🎨 Design:
-    - design/index.md
-    - Mockups & UI: design/mockups.md
-    - Styleguide: design/styleguide.md
-  - 🛠 Entwicklung:
-    - entwicklung/index.md
-    - Projektsetup: entwicklung/setup.md
-    - Architektur: entwicklung/architektur.md
-    - Coding Guidelines: entwicklung/coding-guidelines.md
-    - Lokale Entwicklung: entwicklung/lokale-entwicklung.md
-    - Debugging: entwicklung/debugging.md
-    - API Testing: entwicklung/api-testing.md
-    - Häufige Fehler: entwicklung/haeufige-fehler.md
-    - 🗄️ Datenbank:
-      - entwicklung/datenbank/index.md
-      - Schema: entwicklung/datenbank/schema.md
-      - Migrationen: entwicklung/datenbank/migrationen.md
-      - Seed-Daten: entwicklung/datenbank/seeding.md
-    - 🌐 API:
-      - entwicklung/api/index.md
-      - Endpunkte: entwicklung/api/endpunkte.md
-      - Authentifizierung: entwicklung/api/authentifizierung.md
-    - 🐳 Infrastruktur:
-      - entwicklung/infrastruktur/index.md
-      - Docker: entwicklung/infrastruktur/docker.md
-      - Docker Compose: entwicklung/infrastruktur/docker-compose.md
-      - PostgreSQL Setup: entwicklung/infrastruktur/postgres-setup.md
-      - Nginx: entwicklung/infrastruktur/nginx.md
-    - 💻 IDE-Setup:
-      - entwicklung/ide-setup/index.md
-      - VS Code: entwicklung/ide-setup/vscode.md
-      - VS Code Extensions: entwicklung/ide-setup/vscode-erweiterungen.md
-    - 🔄 Workflows:
-      - entwicklung/workflows/index.md
-      - Git Workflow: entwicklung/workflows/git-workflow.md
-      - Code Review: entwicklung/workflows/code-review.md
-      - Testing Workflow: entwicklung/workflows/testing-workflow.md
-      - Deployment: entwicklung/workflows/deployment.md
+  # - 🎨 Design:
+  #   - design/index.md
+  #   - Mockups & UI: design/mockups.md
+  #   - Styleguide: design/styleguide.md
+  # - 🛠 Entwicklung:
+  #   - entwicklung/index.md
+  #   - Projektsetup: entwicklung/setup.md
+  #   - Architektur: entwicklung/architektur.md
+  #   - Coding Guidelines: entwicklung/coding-guidelines.md
+  #   - Lokale Entwicklung: entwicklung/lokale-entwicklung.md
+  #   - Debugging: entwicklung/debugging.md
+  #   - API Testing: entwicklung/api-testing.md
+  #   - Häufige Fehler: entwicklung/haeufige-fehler.md
+  #   - 🗄️ Datenbank:
+  #     - entwicklung/datenbank/index.md
+  #     - Schema: entwicklung/datenbank/schema.md
+  #     - Migrationen: entwicklung/datenbank/migrationen.md
+  #     - Seed-Daten: entwicklung/datenbank/seeding.md
+  #   - 🌐 API:
+  #     - entwicklung/api/index.md
+  #     - Endpunkte: entwicklung/api/endpunkte.md
+  #     - Authentifizierung: entwicklung/api/authentifizierung.md
+  #   - 🐳 Infrastruktur:
+  #     - entwicklung/infrastruktur/index.md
+  #     - Docker: entwicklung/infrastruktur/docker.md
+  #     - Docker Compose: entwicklung/infrastruktur/docker-compose.md
+  #     - PostgreSQL Setup: entwicklung/infrastruktur/postgres-setup.md
+  #     - Nginx: entwicklung/infrastruktur/nginx.md
+  #   - 💻 IDE-Setup:
+  #     - entwicklung/ide-setup/index.md
+  #     - VS Code: entwicklung/ide-setup/vscode.md
+  #     - VS Code Extensions: entwicklung/ide-setup/vscode-erweiterungen.md
+  #   - 🔄 Workflows:
+  #     - entwicklung/workflows/index.md
+  #     - Git Workflow: entwicklung/workflows/git-workflow.md
+  #     - Code Review: entwicklung/workflows/code-review.md
+  #     - Testing Workflow: entwicklung/workflows/testing-workflow.md
+  #     - Deployment: entwicklung/workflows/deployment.md
   - 📂 Dokumente & Downloads: dateien/
   - 🏷️ Tags: tags.md
