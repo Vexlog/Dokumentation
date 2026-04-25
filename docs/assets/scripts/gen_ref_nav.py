@@ -54,7 +54,7 @@ def generate_preview_content(doc_name, doc_path, file_ext, file_size):
 
 <script>
 (function() {{
-  const base     = (document.querySelector('meta[name="site-url"]')?.content ?? '/').replace(/\\/$/, '');
+  const base     = window.location.origin + '/' + window.location.pathname.split('/')[1];
   const pdfPath  = base + '/assets/downloads/{doc_path.name}';
   const viewer   = base + '/assets/js/pdfjs/web/viewer.html';
   document.getElementById('pdf-iframe-{stem}').src = viewer + '?file=' + encodeURIComponent(pdfPath);
