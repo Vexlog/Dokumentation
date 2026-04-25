@@ -1,0 +1,18 @@
+[project]
+name = "bestpro-dokumentation"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "markdown-exec[ansi]>=1.12.1",
+    "mkdocs-gen-files>=0.6.1",
+    "mkdocs-git-committers-plugin-2>=2.5.0",
+    "mkdocs-git-revision-date-localized-plugin>=1.5.1",
+    "mkdocs-glightbox>=0.5.2",
+    "mkdocs-literate-nav>=0.6.3",
+    "mkdocs-material>=9.7.6",
+    "mkdocs-minify-plugin>=0.8.0",
+    "mkdocs-puml>=2.3.0",
+    "plantuml-markdown>=3.11.2",
+]

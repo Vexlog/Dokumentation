@@ -1,0 +1,234 @@
+site_name: BEST-PRO Entwicklerdokumentation
+site_description: Zentrale Wissensdatenbank für das BEST-PRO Projektmanagementsystem
+site_author: Projektteam WI(P) 28 – SS 2026
+docs_dir: docs
+site_dir: site
+
+repo_name: Vexlog/BestPro
+repo_url: https://github.com/Vexlog/BestPro
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  language: de
+  features:
+    - announce.dismiss
+    - content.action.edit
+    - content.action.view
+    - content.code.annotate
+    - content.code.copy
+    - content.code.select
+    - content.tabs.link
+    - content.tooltips
+    - navigation.expand
+    - navigation.footer
+    - navigation.indexes
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.instant.progress
+    - navigation.path
+    - navigation.sections
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.top
+    - navigation.tracking
+    - search.highlight
+    - search.share
+    - search.suggest
+    - toc.follow
+  palette:
+    # Palette toggle for system preference
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/theme-light-dark
+        name: Wechsel zu Hellmodus
+    
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: Wechsel zu Dunkelmodus
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: Wechsel zu Systemmodus
+  font:
+    text: Roboto
+    code: Roboto Mono
+  icon:
+    logo: material/library
+    repo: fontawesome/brands/github
+
+plugins:
+  - gen-files:
+      scripts:
+        - docs/assets/scripts/gen_ref_nav.py
+  - literate-nav:
+      nav_file: SUMMARY.txt
+  - search:
+      lang: 
+        - de
+        - en
+  - tags:
+      tags_file: tags.md
+  - git-committers:
+      enabled: false
+      repository: Vexlog/BestPro
+  - git-revision-date-localized:
+      enabled: false
+      enable_creation_date: true
+      fallback_to_build_date: true
+      type: timeago
+      locale: de
+  - minify:
+      minify_html: true
+  - glightbox
+  - markdown-exec
+  - plantuml:
+      puml_url: https://www.plantuml.com/plantuml/
+      theme:
+        enabled: true
+        light: material/indigo-light
+        dark: material/indigo-dark
+      cache:
+        backend: local
+        local:
+          path: ".cache/mkdocs_puml"
+      interaction:
+        enabled: true
+
+markdown_extensions:
+  # Standard-Markdown-Erweiterungen
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+      toc_depth: 3
+
+  # Python Markdown Extensions
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink:
+      normalize_issue_symbols: true
+      repo_url_shortener: true
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.snippets
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+      combine_header_slug: true
+      slugify: !!python/object/apply:pymdownx.slugs.slugify
+        kwds:
+          case: lower
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+
+# ===============================================================================
+# Extra Configuration
+# ===============================================================================
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/Vexlog/BestPro
+  status:
+    new: Neu
+    deprecated: Veraltet
+
+extra_css:
+  - assets/css/extra.css
+
+# extra_javascript:
+
+# ===============================================================================
+# Navigation
+# =============================================================================
+nav:
+  - 🏠 Startseite: index.md
+  - 📋 Projekt:
+    - projekt/index.md
+    - Organisation & Termine: projekt/organisation.md
+    - Team & Verantwortlichkeiten: projekt/team.md
+    - Meilensteine: projekt/meilensteine.md
+  - 📌 Anforderungen:
+    - anforderungen/index.md
+    - Use-Case-Übersicht: anforderungen/use-cases.md
+    - Detaillierte Use Cases: anforderungen/use-case-details.md
+    - User Stories: anforderungen/user-stories.md
+  - 🔍 Analyse:
+    - analyse/index.md
+    - Domänenklassendiagramm: analyse/domaenenmodell.md
+    - Systemsequenzdiagramme: analyse/systemsequenzdiagramme.md
+  - 🎨 Design:
+    - design/index.md
+    - Mockups & UI: design/mockups.md
+    - Styleguide: design/styleguide.md
+  - 🛠 Entwicklung:
+    - entwicklung/index.md
+    - Projektsetup: entwicklung/setup.md
+    - Architektur: entwicklung/architektur.md
+    - Coding Guidelines: entwicklung/coding-guidelines.md
+    - Lokale Entwicklung: entwicklung/lokale-entwicklung.md
+    - Debugging: entwicklung/debugging.md
+    - API Testing: entwicklung/api-testing.md
+    - Häufige Fehler: entwicklung/haeufige-fehler.md
+    - 🗄️ Datenbank:
+      - entwicklung/datenbank/index.md
+      - Schema: entwicklung/datenbank/schema.md
+      - Migrationen: entwicklung/datenbank/migrationen.md
+      - Seed-Daten: entwicklung/datenbank/seeding.md
+    - 🌐 API:
+      - entwicklung/api/index.md
+      - Endpunkte: entwicklung/api/endpunkte.md
+      - Authentifizierung: entwicklung/api/authentifizierung.md
+    - 🐳 Infrastruktur:
+      - entwicklung/infrastruktur/index.md
+      - Docker: entwicklung/infrastruktur/docker.md
+      - Docker Compose: entwicklung/infrastruktur/docker-compose.md
+      - PostgreSQL Setup: entwicklung/infrastruktur/postgres-setup.md
+      - Nginx: entwicklung/infrastruktur/nginx.md
+    - 💻 IDE-Setup:
+      - entwicklung/ide-setup/index.md
+      - VS Code: entwicklung/ide-setup/vscode.md
+      - VS Code Extensions: entwicklung/ide-setup/vscode-erweiterungen.md
+    - 🔄 Workflows:
+      - entwicklung/workflows/index.md
+      - Git Workflow: entwicklung/workflows/git-workflow.md
+      - Code Review: entwicklung/workflows/code-review.md
+      - Testing Workflow: entwicklung/workflows/testing-workflow.md
+      - Deployment: entwicklung/workflows/deployment.md
+  - 📂 Dokumente & Downloads: dateien/
+  - 🏷️ Tags: tags.md
