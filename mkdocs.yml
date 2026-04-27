@@ -94,7 +94,7 @@ plugins:
   - glightbox
   - markdown-exec
   - plantuml:
-      puml_url: https://www.plantuml.com/plantuml/
+      puml_url: https://www.plantuml.com/plantuml
       theme:
         enabled: true
         light: material/indigo-light
@@ -102,7 +102,8 @@ plugins:
       cache:
         backend: local
         local:
-          path: ".cache/mkdocs_puml"
+          join_project_name: false
+          path: "docs/assets/puml"
       interaction:
         enabled: true
 
