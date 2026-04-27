@@ -30,7 +30,7 @@ env/
 
 # MkDocs
 site/
-.cache/
+.cache/plugin
 
 # IDE & Editors
 .vscode/
