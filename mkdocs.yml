@@ -97,9 +97,8 @@ plugins:
       puml_url: https://www.plantuml.com/plantuml/
       theme:
         enabled: true
-        url: https://github.com/Vexlog/Dokumentation/tree/main/docs/assets/puml-themes
-        light: material/indigo-light.puml
-        dark: material/indigo-dark.puml
+        light: material/indigo-light
+        dark: material/indigo-dark
       cache:
         backend: local
         local:
